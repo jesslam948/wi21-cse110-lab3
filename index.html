@@ -140,7 +140,7 @@
                                 <li>I was in percussion (drums and mallet instruments)
                                     and especially enjoyed playing an instrument called the marimba</li>
                                 <li>I also learned and performed a different marimba solo each year of high school
-                                    (<strike>maybe a video or two are still floating out there…</strike>)</li>
+                                    (maybe a video or two are still floating out there…)</li>
                             </ul>
                         </li>
                     </ol>
@@ -148,17 +148,14 @@
 
                 <h3>Fun Media</h3>
                 <picture>
-                    <source srcset="Blue.jpg"
-                            media="(max-width: 400px) 100vw">
+                    <source srcset="Blue.jpg">
                     <img src="Blue.jpg" alt="Selfie with International Klein Blue by Yves Klein"
                         sizes="400px"
                         srcset="Blue.jpg 500w">
-                    <p>Selfie with <i>International Klein Blue</i> by Yves Klein</p>
                 </picture>
+                <p>Selfie with <i>International Klein Blue</i> by Yves Klein</p>
                 <iframe width="400"
                     height="300"
-                    frameborder="0"
-                    scrolling="no"
                     src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=9500%20Gilman%20Dr,%20La%20Jolla,%20CA%2092093+(UCSD%20Campus)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                 </iframe>
                 <p>UCSD</p>
@@ -186,44 +183,44 @@
             <hr>
             <section>
                 <h2>Contact Form</h2>
-                <form action="" method="get">
+                <form>
                     <div>
                         <label for="name">Name: </label>
-                        <input type="text" name="name" required>
+                        <input type="text" id="name" name="name" required>
                         </div>
                     <div>
                         <label for="email">Email: </label>
-                        <input type="email" name="email" required>
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div>
                         <label for="comment">Comments: </label>
-                        <textarea name="comment"
+                        <textarea id="comment" name="comment"
                             rows="5" cols="33">Any comments? :O
                         </textarea>
                     </div>
                     <div>
                         <label for="check">Yes?</label>
-                        <input type="checkbox" name="check">
+                        <input type="checkbox" id="check" name="check">
                     </div>
                     <div>
                         <label for="mydate">Date Submitted:</label>
-                        <input type="date">
+                        <input type="date" id="mydate" name="mydate">
                     </div>
                     <div>
                         <label for="slider">FUN SLIDER :D</label>
-                        <input type="range">
+                        <input type="range" id="slider" name="slider">
                     </div>
                     <div>
                         <label for="phone">Phone Number:</label>
-                        <input type="tel">
+                        <input type="tel" id="phone" name="phone">
                     </div>
                     <div>
                         <label for="secret">Send me some secrets :D</label>
-                        <input type="password">
+                        <input type="password" id="secret" name="secret">
                     </div>
                     <div>
                         <label for="myfile">Send a file..?</label>
-                        <input type="file">
+                        <input type="file" id="myfile" name="myfile">
                     </div>
                     <div>
                         <label for="book-select">Choose one of my favorite books :D</label>
@@ -269,6 +266,7 @@
             <section>
                 <h2>Class Schedule</h2>
                 <table>
+                    <caption>My current course schedule</caption>
                     <colgroup>
                         <col span="1" class="fall">
                         <col span="1" class="winter">
@@ -311,7 +309,6 @@
                             <td>tbd</td>
                         </tr>
                     </tbody>
-                    <caption>My current course schedule</caption>
                 </table>
             </section>
             <hr>
