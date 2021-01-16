@@ -169,8 +169,140 @@
                     <circle cx="5" cy="5" r="4" />
                 </svg>
                 <p>svg circleee</p>
+                <button type="button">A button :D</button>
             </section>
-            <hr>
+        <hr>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="" method="get">
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" required>
+                    </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="comment">Comments: </label>
+                    <textarea name="comment"
+                        rows="5" cols="33">Any comments? :O
+                    </textarea>
+                </div>
+                <div>
+                    <label for="check">Yes?</label>
+                    <input type="checkbox" name="check">
+                </div>
+                <div>
+                    <label for="mydate">Date Submitted:</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label for="slider">FUN SLIDER :D</label>
+                    <input type="range">
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel">
+                </div>
+                <div>
+                    <label for="secret">Send me some secrets :D</label>
+                    <input type="password">
+                </div>
+                <div>
+                    <label for="myfile">Send a file..?</label>
+                    <input type="file">
+                </div>
+                <div>
+                    <label for="book-select">Choose one of my favorite books :D</label>
+                    <select id="book-select">
+                        <optgroup label="Non-Fiction">
+                            <option>The Last Lecture by Randy Pausch</option>
+                            <option>Me Talk Pretty One Day by David Sedaris</option>
+                        </optgroup>
+                        <optgroup label="Fiction">
+                            <option>The Alchemist by Paulo Coehlo</option>
+                            <option>Gathering Blue by Lois Lowry</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <fieldset>
+                    <legend>Choose an Animal Crossing game</legend>
+                    
+                    <input type="radio" id="wild-world" name="ac">
+                    <label for="wild-world">Wild World</label><br>
+
+                    <input type="radio" id="new-leaf" name="ac">
+                    <label for="new-leaf">New Leaf</label><br>
+
+                    <input type="radio" id="new-horizon" name="ac">
+                    <label for="new-horizon">New Horizon</label>
+                </fieldset>
+
+                <label for="topping-choice">Choose a boba topping:</label>
+                <input list="boba-topping" id="topping-choice" name="topping-choice"/>
+
+                <datalist id="boba-topping">
+                    <option value="Golden Boba">
+                    <option value="Red Bean">
+                    <option value="Lychee Jelly">
+                </datalist>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>Class Schedule</h2>
+            <table>
+                <colgroup>
+                    <col span="1" class="fall">
+                    <col span="1" class="winter">
+                    <col span="1" class="spring">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th colspan="3">2020-21 Courses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fall 20</td>
+                        <td>Winter 21</td>
+                        <td>Spring 21</td>
+                    </tr>
+                    <tr>
+                        <td>CSE 100</td>
+                        <td>CSE 110</td>
+                        <td>tbd</td>
+                    </tr>
+                    <tr>
+                        <td>CSE 105</td>
+                        <td>CSE 101</td>
+                        <td>tbd</td>
+                    </tr>
+                    <tr>
+                        <td>CHIN 20AD</td>
+                        <td>CHIN 20BD</td>
+                        <td>tbd</td>
+                    </tr>
+                    <tr>
+                        <td>CSE 193</td>
+                        <td>MATH 183</td>
+                        <td>tbd</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>CSE 198</td>
+                        <td>tbd</td>
+                    </tr>
+                </tbody>
+                <caption>My current course schedule</caption>
+            </table>
+        </section>
+        <hr>
         </main>
         <footer>
             <p>© 2021 Jessica Lam</p>
