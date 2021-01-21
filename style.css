@@ -13,8 +13,12 @@ h4 {
     
 }
 
-.people {
-    
+.title {
+
+}
+
+span.people {
+
 }
 
 #wild-world {
@@ -35,4 +39,12 @@ ul li {
 
 nav > ul {
     
+}
+
+p ~ ul {
+
+}
+
+h4 + p {
+
 }
