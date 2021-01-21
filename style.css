@@ -1,5 +1,6 @@
 * {
     background-color: #ccffff;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 p {
@@ -10,7 +11,14 @@ h1,
 h2,
 h3,
 h4 {
+    text-align: center;
+    border-radius: 4px;
+    font-family: 'Merriweather', serif;
+}
 
+h2 {
+    background-color: hsl(240, 100%, 15%);
+    color: white;
 }
 
 .title {
