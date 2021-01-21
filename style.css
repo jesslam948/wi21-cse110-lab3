@@ -1,5 +1,5 @@
 * {
-
+    background-color: #ccffff;
 }
 
 p {
@@ -10,11 +10,12 @@ h1,
 h2,
 h3,
 h4 {
-    
+
 }
 
 .title {
-
+    background-color: aquamarine;
+    color: hsl(240, 100%, 15%);
 }
 
 span.people {
@@ -26,7 +27,7 @@ span.people {
 }
 
 a[href^="https"] {
-
+    color: rgb(102, 102, 255);
 }
 
 button:hover {
