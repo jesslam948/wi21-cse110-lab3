@@ -1,8 +1,18 @@
+/*
+    This is a comment! :D
+*/
+
 * {
     background-color: #ccffff;
     font-family: 'Noto Sans', sans-serif;
     margin: 1em 2em 2em 2em;
     padding: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        background-color: lightcoral;
+    }
 }
 
 p {
@@ -51,24 +61,40 @@ aside {
     border-color: hsl(240, 100%, 15%);
     border-width: 0.25em;
     border-radius: 20px 10px;
+
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 50%;
+    margin-left: 5%;
     margin-right: 5%;
+
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 15px;
+
+    max-width: 50%;
+    flex-shrink: 3;
+    flex-grow: 3;
+
     display: inline-block;
     position: relative;
 }
 
-span.people {
-
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 
-#wild-world {
-
+.mygrid {
+    display: grid;
+    grid-template-columns: 33% 33% 35%;
+    gap: 5px;
+    justify-items: center;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
 a[href^="https"] {
@@ -76,15 +102,28 @@ a[href^="https"] {
 }
 
 button:hover {
+    background-color: navy;
+    color: aquamarine;
+}
 
+svg:active {
+    background-color: blueviolet;
+}
+
+span.people {
+    color: green;
+}
+
+#wild-world {
+    color: crimson;
 }
 
 ul li {
-
+    color: darkslateblue;
 }
 
 nav > ul {
-    
+    background-color: darkseagreen;
 }
 
 p + ul {
