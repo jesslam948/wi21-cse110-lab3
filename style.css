@@ -14,6 +14,15 @@ hr {
     background-color: black;
     border: none;
     width: 75%;
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
@@ -24,6 +33,7 @@ h4 {
     border-radius: 4px;
     font-family: 'Merriweather', serif;
     padding: 10px 10px 10px 10px;
+    position: static;
 }
 
 h2 {
@@ -49,6 +59,8 @@ aside {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 15px;
+    display: inline-block;
+    position: relative;
 }
 
 span.people {
@@ -75,10 +87,11 @@ nav > ul {
     
 }
 
-p ~ ul {
-
+p + ul {
+    color: blueviolet;
+    display: block;
 }
 
-h4 + p {
-
+h4 ~ p {
+    color: navy;
 }
