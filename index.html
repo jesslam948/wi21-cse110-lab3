@@ -50,31 +50,31 @@
                     cats, matcha, and basically all of the Studio Ghibli movies!</p>
                 
                 <h3>And a Favorite Quote from a Favorite Book</h3>
-                <blockquote>
-                    We cannot change the cards we are dealt, just how we play the hand.<br>
-                    -Randy Pausch, in <i>The Last Lecture</i>
-                </blockquote>
-                <aside>
-                    <p><span class="people">Randy Pausch</span> was a Computer Science Lecturer at Carnegie Mellon.
-                        He wrote the book <em>The Last Lecture</em> (based off of the Lecturing series of the same name)
-                        when he was diagnosed with cancer. I highly recommend this book!</p>
-                </aside>
-
-                <h3>And Some Random Code + ASCII Art?</h3>
-                <pre>
+                <div class="flexbox">
+                    <blockquote>
+                        We cannot change the cards we are dealt, just how we play the hand.<br>
+                        -Randy Pausch, in <i>The Last Lecture</i>
+                    </blockquote>
+                    <aside>
+                        <p><span class="people">Randy Pausch</span> was a Computer Science Lecturer at Carnegie Mellon.
+                            He wrote the book <em>The Last Lecture</em> (based off of the Lecturing series of the same name)
+                            when he was diagnosed with cancer. I highly recommend this book!</p>
+                    </aside>
+                    <pre>
 <code>
     while alive == True:
         keep_moving_forward()
 </code>
-                </pre>
-                <pre>
+                    </pre>
+                    <pre>
                     .----.
                     |C>_ |
                   __|____|__
                  |  ______--|
                  `-/.::::.\-'a
                   `--------'
-                </pre>
+                    </pre>
+                </div>
             </section>
             <hr>
             <section>
@@ -156,34 +156,48 @@
                 </div>
 
                 <h3>Fun Media</h3>
-                <picture>
-                    <source srcset="Blue.jpg"
-                            media="(min-width:400px)">
-                    <img src="Blue.jpg" alt="Selfie with International Klein Blue by Yves Klein"
-                        sizes="400px"
-                        srcset="Blue.jpg 500w">
-                </picture>
-                <p>Selfie with <i>International Klein Blue</i> by <span class="people">Yves Klein</span></p>
-                <iframe width="400"
-                    height="300"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=9500%20Gilman%20Dr,%20La%20Jolla,%20CA%2092093+(UCSD%20Campus)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                </iframe>
-                <p>UCSD</p>
-                <audio controls>
-                    <source src="flourish.mid" type="audio/ogg">
-                </audio>
-                <p>Some audio :D ... wish it worked :((</p>
-                <video controls width="250">
-                </video>
-                <p>Some video :D ... wish it worked too :((</p>
-                <canvas width="300" height="300" style="border:1px solid #000000">
-                    blank canvas
-                </canvas>
-                <p>canvas :D</p>
-                <svg viewBox="0 0 10 10" x="200" width="100">
-                    <circle cx="5" cy="5" r="4" />
-                </svg>
-                <p>svg circleee</p>
+                <div class="mygrid">
+                    <div>
+                        <picture>
+                            <source srcset="Blue.jpg"
+                                    media="(min-width:400px)">
+                            <img src="Blue.jpg" alt="Selfie with International Klein Blue by Yves Klein"
+                                sizes="400px"
+                                srcset="Blue.jpg 500w">
+                        </picture>
+                        <p>Selfie with <i>International Klein Blue</i> by <span class="people">Yves Klein</span></p>
+                    </div>
+                    <div>
+                        <iframe width="400"
+                            height="300"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=9500%20Gilman%20Dr,%20La%20Jolla,%20CA%2092093+(UCSD%20Campus)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        </iframe>
+                        <p>UCSD!!</p>
+                    </div>
+                    <div>
+                        <audio controls>
+                            <source src="flourish.mid" type="audio/ogg">
+                        </audio>
+                        <p>Some audio :D ... wish it worked :((</p>
+                    </div>
+                    <div>
+                        <video controls width="250">
+                        </video>
+                        <p>Some video :D ... wish it worked too :((</p>
+                    </div>
+                    <div>
+                        <canvas width="300" height="300" style="border:1px solid #000000">
+                            blank canvas
+                        </canvas>
+                        <p>canvas :D</p>
+                    </div>
+                    <div>
+                        <svg viewBox="0 0 10 10" x="200" width="100">
+                            <circle cx="5" cy="5" r="4" />
+                        </svg>
+                        <p>svg circleee</p>
+                    </div>
+                </div>
                 <button type="button">A button :D</button>
                 <template>
                     <h2>A Template :O</h2>
